@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_battle_menu</sprite>
+    <sprite>sprites\spr_black_magic</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -14,11 +15,10 @@
     <font>fonts\font_bold</font>
   </fonts>
   <objects name="objects">
-    <objects name="Old">
-      <object>objects\obj_black_magic</object>
-      <object>objects\obj_battle_menu</object>
-    </objects>
     <object>objects\obj_menu_system</object>
+    <object>objects\obj_black_magic</object>
+    <object>objects\obj_skills</object>
+    <object>objects\obj_magic</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\battle_room</room>
